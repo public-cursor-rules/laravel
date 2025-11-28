@@ -1,0 +1,61 @@
+{
+  "$schema": "https://www.cursor.com/schema/rules",
+  "extends": [
+    "../backend/",
+    "../frontend/"
+  ],
+  "rules": [
+    {
+      "pattern": "**/*.ts",
+      "content": "./frontend/01-main.md"
+    },
+    {
+      "pattern": "**/*.tsx",
+      "content": "./frontend/03-components-ui.md"
+    },
+    {
+      "pattern": "**/*.js",
+      "content": "./frontend/01-main.md"
+    },
+    {
+      "pattern": "src/**/store/**/*",
+      "content": "./frontend/04-state-management.md"
+    },
+    {
+      "pattern": "src/**/auth/**/*",
+      "content": "./frontend/06-authorization.md"
+    },
+    {
+      "pattern": "src/**/forms/**/*",
+      "content": "./frontend/05-forms-validation.md"
+    },
+    {
+      "pattern": "src/**/i18n/**/*",
+      "content": "./frontend/07-internationalization.md"
+    },
+    {
+      "pattern": "app/**",
+      "content": "./backend/01-main.md"
+    },
+    {
+      "pattern": "app/Http/**",
+      "content": "./backend/03-code-structure.md"
+    },
+    {
+      "pattern": "app/Models/**",
+      "content": "./backend/05-database.md"
+    },
+    {
+      "pattern": "app/Http/Controllers/**",
+      "content": "./backend/06-api-documentation.md"
+    },
+    {
+      "pattern": "routes/**",
+      "content": "./backend/07-laravel-features.md"
+    },
+    {
+      "pattern": "config/**",
+      "content": "./backend/02-architecture.md"
+    }
+  ]
+}

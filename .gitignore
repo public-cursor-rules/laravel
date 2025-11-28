@@ -1,2 +1,3 @@
-project/*.md
 .DS_Store
+project/**
+!project/rules.json
